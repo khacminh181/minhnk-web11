@@ -65,14 +65,14 @@ app.get('/frontendPractice', (req, res)=>{
 })
 
 app.get('/flexBox', (req, res)=>{
-    res.sendFile(__dirname + '/public/index.html')
+    res.sendFile(__dirname + '/public/b3.html')
 })
 
 app.get('/about', (req, res)=>{
     res.send("This is about");
 })
 
-app.listen(6969, (err) => {
+app.listen(1810, (err) => {
     if(err){ console.log(err); }
-    console.log("App is start at port 6969");
+    console.log("App is start at port 1810");
 })
