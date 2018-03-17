@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+        .box{
+            text-align: center;
+            margin-top: 30px;
+        }
+        button{
+            display: block;
+            margin-left: 50%;
+            width:  60px;
+            height: 50px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1> Hãy hỏi một câu hỏi có đáp án có/không </h1>
+
+        <form action="/ask" method="post">
+            <textarea cols="100" rows="10" name="question"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
